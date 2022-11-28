@@ -30,3 +30,12 @@
         transform:initial;
     }
 }
+.work {
+    animation: haha;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}  
+@keyframes haha {
+    from {transform: skew(30deg, 20deg);}
+    to {transform:skewY(1.07rad);}
+}
