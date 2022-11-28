@@ -1,0 +1,32 @@
+.homework {
+    animation: ha;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ha {
+    0% {
+        transform:rotatey(10deg);
+    }
+    15% {
+        transform: scale(2,0.5);
+    }
+    30% {
+        transform: skew(30deg, 20deg);
+    }
+    45% {
+        transform: rotatey(-20deg);
+    }
+    60% {
+        transform:unset;
+    }
+    75% {
+        transform:inherit;
+    }
+    90% {
+        transform: matrix(1, 2, 3, 4, 5, 6);
+    }
+    100% {
+        transform:initial;
+    }
+}
